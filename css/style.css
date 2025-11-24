@@ -75,3 +75,23 @@ body {
     padding-left: 20px;
 }
 
+
+#evolucao {
+    max-width: 800px;           
+    margin: 40px auto;          
+    background: #ffffff;        
+    padding: 30px;              
+    border-radius: 12px;        
+    box-shadow: 0 0 20px rgba(0,0,0,0.2); 
+}
+
+#evolucao h1,
+#evolucao h2,
+#evolucao p,
+#evolucao ul {
+    margin-bottom: 16px;
+}
+
+#evolucao ul {
+    padding-left: 20px;
+}
