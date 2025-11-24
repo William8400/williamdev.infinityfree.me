@@ -55,6 +55,28 @@ body {
     margin-bottom: 12px;
 }
 
+#apresentacao ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+#apresentacao ul li {
+    margin-bottom: 8px;
+    padding: 8px 12px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    border-left: 4px solid gray; 
+    transition: 0.3s;
+}
+
+/* Efeito hover */
+#apresentacao ul li:hover {
+    background: #ffecec;
+    transform: translateX(4px);
+}
+
+
 #trajetoria {
     max-width: 800px;           
     margin: 40px auto;          
@@ -65,7 +87,6 @@ body {
 }
 
 #trajetoria h2,
-#trajetoria h3,
 #trajetoria p,
 #trajetoria ul {
     margin-bottom: 16px;
@@ -73,6 +94,21 @@ body {
 
 #trajetoria ul {
     padding-left: 20px;
+}
+
+#trajetoria ul li {
+    margin-bottom: 8px;
+    padding: 8px 12px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    border-left: 4px solid gray; 
+    transition: 0.3s;
+}
+
+
+#trajetoria ul li:hover {
+    background: #ffecec;
+    transform: translateX(4px);
 }
 
 
@@ -94,4 +130,19 @@ body {
 
 #evolucao ul {
     padding-left: 20px;
+}
+
+#evolucao ul li {
+    margin-bottom: 8px;
+    padding: 8px 12px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    border-left: 4px solid gray; 
+    transition: 0.3s;
+}
+
+/* Efeito hover */
+#evolucao ul li:hover {
+    background: #ffecec;
+    transform: translateX(4px);
 }
