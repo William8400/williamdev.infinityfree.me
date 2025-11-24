@@ -26,9 +26,16 @@ body {
     gap: 30px;
 }
 
+#cabecalho ul li {
+    text-decoration: none;
+    color: white;
+   
+}
+
 #cabecalho ul li:hover {
     color: red;
-    cursor: pointer;
+    cursor: pointer; 
+    text-decoration: none;
 }
 
 
