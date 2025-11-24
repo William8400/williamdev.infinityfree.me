@@ -38,4 +38,14 @@ body {
     text-decoration: none;
 }
 
+/* ------------------------------ */
+#apresentacao {
+    background-image: url('img/William.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 40px;
+    text-align: center;
+}
+
 
