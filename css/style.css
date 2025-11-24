@@ -70,7 +70,7 @@ body {
     transition: 0.3s;
 }
 
-/* Efeito hover */
+
 #apresentacao ul li:hover {
     background: #ffecec;
     transform: translateX(4px);
