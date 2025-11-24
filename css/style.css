@@ -40,12 +40,38 @@ body {
 
 /* ------------------------------ */
 #apresentacao {
-    background-image: url('img/William.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 10px 40px;
-    text-align: center;
+    max-width: 800px;        
+    margin: 40px auto;       
+    background: #ffffff;      
+    padding: 30px;           
+    border-radius: 12px;      
+    box-shadow: 0 0 20px rgba(0,0,0,0.2); 
 }
 
+#apresentacao h1, 
+#apresentacao h2,
+#apresentacao h3,
+#apresentacao p {
+    margin-bottom: 12px;
+}
+
+#trajetoria {
+    max-width: 800px;           
+    margin: 40px auto;          
+    background: #ffffff;        
+    padding: 30px;              
+    border-radius: 12px;        
+    box-shadow: 0 0 20px rgba(0,0,0,0.2); 
+}
+
+#trajetoria h2,
+#trajetoria h3,
+#trajetoria p,
+#trajetoria ul {
+    margin-bottom: 16px;
+}
+
+#trajetoria ul {
+    padding-left: 20px;
+}
 
