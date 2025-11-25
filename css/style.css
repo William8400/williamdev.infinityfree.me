@@ -32,11 +32,27 @@ body {
    
 }
 
-#cabecalho ul li:hover {
+#cabecalho ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#cabecalho ul li a:visited{
+    color: white;
+}
+
+#cabecalho ul li a:active,
+#cabecalho ul li a:focus {
+    outline: none;
+    border: none;
+}
+
+#cabecalho ul li a:hover {
     color: red;
     cursor: pointer; 
     text-decoration: none;
 }
+
 
 .menu-btn {
     display: none;
