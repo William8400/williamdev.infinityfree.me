@@ -191,4 +191,49 @@ body {
         font-size: 22px;
         padding: 10px 0;
     }
+
+    #apresentacao,
+    #trajetoria,
+    #evolucao {
+        max-width: 95%;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    
+    #apresentacao h1,
+    #apresentacao h2,
+    #apresentacao h3,
+    #trajetoria h1,
+    #trajetoria h2,
+    #evolucao h1,
+    #evolucao h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+
+    #apresentacao p,
+    #trajetoria p,
+    #evolucao p {
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: justify;
+    }
+
+    
+    #apresentacao ul li,
+    #trajetoria ul li,
+    #evolucao ul li {
+        font-size: 16px;
+        padding: 10px 12px;
+        margin-bottom: 10px;
+    }
+
+    #apresentacao ul li:hover,
+    #trajetoria ul li:hover,
+    #evolucao ul li:hover {
+        transform: translateX(2px);
+    }
 }
